@@ -1,3 +1,8 @@
+.go
+{width:100px;
+height:65px;
+background: red;}
+
 .modal
 {position: fixed;
 
@@ -94,6 +99,9 @@ top: 184px;}
 {display: none;}
 
 #btn2
+{display:none;}
+
+.modal
 {display:none;}
 
 @media screen and (max-width: 800px) {

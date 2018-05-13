@@ -1,4 +1,13 @@
+var go = document.getElementById('go');
+var modal=document.getElementById('modal');
+var start=document.getElementById('start');
 
+go.addEventListener('click',function () {
+  modal.style.display="block";
+  start.style.display="none";
+  BigMath();
+
+});
 
 function BigMath() {
 
@@ -806,5 +815,3 @@ result.addEventListener('keyup',function () {
 //
 canvasAdder();
 };
-
-BigMath();
