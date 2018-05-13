@@ -12,7 +12,7 @@ go.addEventListener('click',function () {
 function BigMath() {
 
 
-
+var right = !1;
 var numarray1 =[];
 var numarray2=[];
 var num1=document.getElementById('num1');
@@ -73,7 +73,22 @@ num2.innerText=nm2valid;
 
 // return randomnum1;
 
+function erase() {
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+num.style.display="block";
+yeah.innerText="";
+yeah2.innerText="";
+btn2.style.display="none";
+num.value="";
+imp.value="";
+result.value="";
+sum.style.display="block";
+sum.innerText="?";
 
+BigMath();
+
+
+};
 
 
 
@@ -809,7 +824,7 @@ result.addEventListener('keyup',function () {
 
     yes.addEventListener('click',function () {
 
-    location.reload(true);
+     erase();
 
     });
 //
