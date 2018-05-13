@@ -1,7 +1,7 @@
 .go
 {width:100px;
 height:65px;
-background: red;}
+background: #5da130;}
 
 .modal
 {position: fixed;
@@ -108,7 +108,20 @@ top: 184px;}
 .modal
 {display:none;}
 
+.mobs
+{margin-top:65px;
+font-size: 1.5em;}
+
+.mob
+{display: none;}
+
+.flexmob
+{display:flex; }
+
 @media screen and (max-width: 800px) {
+
+  .mob
+  {display: block;}
 
   .arc
   {

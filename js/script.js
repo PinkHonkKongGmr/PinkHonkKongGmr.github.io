@@ -30,6 +30,10 @@ var result = document.getElementById('result');
 var btn2=document.getElementById('btn2');
 var yes = document.getElementById("yes");
 var no = document.getElementById('no');
+var mo1= document.getElementById('mo1');
+var mo3= document.getElementById('mo3');
+
+
 ctx.strokeStyle = 'rgba(248,23,62,0.7)';
 // var right = 1;
 
@@ -71,7 +75,8 @@ var nm2valid = getNumTwo();
 var thissum = randomnum1 + nm2valid;
 num1.innerText=randomnum1;
 num2.innerText=nm2valid;
-
+mo1.innerText=randomnum1;
+mo3.innerText=nm2valid;
 // return randomnum1;
 
 function erase() {
@@ -190,7 +195,7 @@ function canvasAdder() {
           ctx.moveTo(341,200);
           ctx.lineTo(336,190);
           ctx.lineWidth = 2;
-          
+
           ctx.stroke();
         }
         else {
@@ -772,6 +777,7 @@ num.addEventListener('keyup',function () {
     num1.style.background="none";
     rigth=1;
     canvasAdder();
+    mo1.style.background="green";
 
 
   }
@@ -780,6 +786,7 @@ num.addEventListener('keyup',function () {
   else {
     num.style.color="red";
     num1.style.background="yellow";
+    mo1.style.background="red";
   }
 
 
@@ -795,6 +802,8 @@ imp.addEventListener('keyup',function () {
     sumResult.style.display="block";
     sum.style.display="none";
     num2.style.background="none";
+    mo3.style.background="green";
+
 
 
 
@@ -803,6 +812,7 @@ imp.addEventListener('keyup',function () {
   else {
     imp.style.color="red";
     num2.style.background="yellow";
+    mo3.style.background="red";
   }});
 
 result.addEventListener('keyup',function () {
@@ -816,10 +826,11 @@ result.addEventListener('keyup',function () {
 
 
 
+
     }
 
     else {
-      imp.style.color="red";
+      result.style.color="red";
 
     }});
 
