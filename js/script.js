@@ -12,7 +12,7 @@ go.addEventListener('click',function () {
 function BigMath() {
 
 
-var right = !1;
+var right = 0;
 var numarray1 =[];
 var numarray2=[];
 var num1=document.getElementById('num1');
@@ -30,6 +30,7 @@ var result = document.getElementById('result');
 var btn2=document.getElementById('btn2');
 var yes = document.getElementById("yes");
 var no = document.getElementById('no');
+ctx.strokeStyle = 'rgba(248,23,62,0.7)';
 // var right = 1;
 
 // function arraytest() {
@@ -105,20 +106,20 @@ function canvasAdder() {
        ctx.moveTo(218,200);
        ctx.lineTo(223,190);
        ctx.lineWidth = 2;
-       ctx.fillStyle = "orange";
+
        ctx.stroke();
 
        ctx.beginPath();
        ctx.moveTo(218,200);
        ctx.lineTo(213,190);
        ctx.lineWidth = 2;
-       ctx.fillStyle = "orange";
+
        ctx.stroke();
 
        ctx.beginPath();
        ctx.arc(156,200,62,0, Math.PI,true);
        ctx.lineWidth = 4;
-       ctx.fillStyle = "orange";
+
        ctx.stroke();
 
      if (rigth=="1") {
@@ -127,21 +128,21 @@ function canvasAdder() {
        ctx.beginPath();
        ctx.arc(269,200,51,0, Math.PI,true);
        ctx.lineWidth = 4;
-       ctx.fillStyle = "orange";
+
        ctx.stroke();
 
        ctx.beginPath();
        ctx.moveTo(320,200);
        ctx.lineTo(325,190);
        ctx.lineWidth = 2;
-       ctx.fillStyle = "orange";
+
        ctx.stroke();
 
        ctx.beginPath();
        ctx.moveTo(320,200);
        ctx.lineTo(315,190);
        ctx.lineWidth = 2;
-       ctx.fillStyle = "orange";
+
        ctx.stroke();
        }
 
@@ -156,14 +157,14 @@ function canvasAdder() {
           ctx.moveTo(218,200);
           ctx.lineTo(223,190);
           ctx.lineWidth = 2;
-          ctx.fillStyle = "orange";
+
           ctx.stroke();
 
           ctx.beginPath();
           ctx.moveTo(218,200);
           ctx.lineTo(213,190);
           ctx.lineWidth = 2;
-          ctx.fillStyle = "orange";
+
           ctx.stroke();
 
           ctx.beginPath();
@@ -175,21 +176,21 @@ function canvasAdder() {
           ctx.beginPath();
           ctx.arc(280,200,61,0, Math.PI,true);
           ctx.lineWidth = 4;
-          ctx.fillStyle = "orange";
+
           ctx.stroke();
 
           ctx.beginPath();
           ctx.moveTo(341,200);
           ctx.lineTo(346,190);
           ctx.lineWidth = 2;
-          ctx.fillStyle = "orange";
+
           ctx.stroke();
 
           ctx.beginPath();
           ctx.moveTo(341,200);
           ctx.lineTo(336,190);
           ctx.lineWidth = 2;
-          ctx.fillStyle = "orange";
+          
           ctx.stroke();
         }
         else {
@@ -827,6 +828,6 @@ result.addEventListener('keyup',function () {
      erase();
 
     });
-//
+
 canvasAdder();
 };
