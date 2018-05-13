@@ -1,0 +1,97 @@
+.modal
+{position: fixed;
+
+  top:10%;
+  left:10%;
+
+}
+
+/* .axis
+{
+width:800px;
+height:100px;
+} */
+
+img
+{width:500px;}
+
+
+
+
+.arc
+{
+top:120px;
+left:201px;
+position: absolute;
+
+}
+
+.axis
+{
+left:280px;
+top:283px;
+position: absolute;
+}
+
+#calculating
+{
+
+display: flex;
+padding-left:450px;
+font-size: 2em;
+
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#num, #imp, #result
+{width:30px;
+border-radius:10%;
+position:absolute;
+}
+
+#num, #imp
+{
+position:absolute;
+left:350px;
+top:190px;
+z-index: 3000;
+
+}
+
+#imp
+{left:500px;
+
+display:none; }
+
+#result
+{top:10px;
+}
+
+#yeah, #yeah2
+{position: absolute;
+  font-size: 2em;
+}
+
+#yeah
+{
+  left:356px;
+  top:184px;
+}
+
+#yeah2
+{left:496px;
+top: 184px;}
+
+#sumResult
+{display: none;}
+
+#btn2
+{display:none;}
