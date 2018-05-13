@@ -95,3 +95,46 @@ top: 184px;}
 
 #btn2
 {display:none;}
+
+@media screen and (max-width: 800px) {
+
+  .arc
+  {
+  top:120px;
+  left:-80px;
+  position: absolute;
+
+  }
+
+  .axis
+  {
+  left:0px;
+  top:283px;
+  position: absolute;
+  }
+
+  #calculating
+  {
+
+  display: flex;
+  padding-left: 0;
+  font-size: 2em;
+  }
+
+  #num, #imp, #result
+  {width:50px;
+    height:60px;
+  border-radius:10%;
+  top:40px;
+  left:0px;
+  }
+
+  #yeah, #yeah2
+  {
+  display: none;
+  }
+
+
+
+
+}
