@@ -92,6 +92,8 @@ imp.value="";
 result.value="";
 sum.style.display="block";
 sum.innerText="?";
+thissum=null;
+
 
 BigMath();
 
@@ -183,7 +185,7 @@ function canvasAdder(a) {
           ctx.lineWidth = 4;
           ctx.stroke();
 
-         if (thissum=a) {
+         if (thissum==a) {
           ctx.beginPath();
           ctx.arc(280,200,61,0, Math.PI,true);
           ctx.lineWidth = 4;
