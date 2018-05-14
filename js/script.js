@@ -12,7 +12,7 @@ go.addEventListener('click',function () {
 function BigMath() {
 
 
-var right = 0;
+var right;
 var numarray1 =[];
 var numarray2=[];
 var num1=document.getElementById('num1');
@@ -32,6 +32,8 @@ var yes = document.getElementById("yes");
 var no = document.getElementById('no');
 var mo1= document.getElementById('mo1');
 var mo3= document.getElementById('mo3');
+var o =imp.style.display;
+
 
 
 ctx.strokeStyle = 'rgba(248,23,62,0.7)';
@@ -101,7 +103,11 @@ BigMath();
 
 
 
-function canvasAdder() {
+function canvasAdder(a) {
+
+
+
+
   if (randomnum1=="6") {
 
      if (thissum=="11") {
@@ -127,7 +133,7 @@ function canvasAdder() {
 
        ctx.stroke();
 
-     if (rigth=="1") {
+     if (thissum==a) {
 
 
        ctx.beginPath();
@@ -177,7 +183,7 @@ function canvasAdder() {
           ctx.lineWidth = 4;
           ctx.stroke();
 
-         if (rigth=="1") {
+         if (thissum=a) {
           ctx.beginPath();
           ctx.arc(280,200,61,0, Math.PI,true);
           ctx.lineWidth = 4;
@@ -225,7 +231,7 @@ function canvasAdder() {
           ctx.lineWidth = 4;
           ctx.stroke();
 
-              if (rigth=="1") {
+              if (thissum==a) {
           ctx.beginPath();
           ctx.arc(289,200,72,0, Math.PI,true);
           ctx.lineWidth = 4;
@@ -268,7 +274,7 @@ function canvasAdder() {
           ctx.stroke();
 
 
-          if (rigth=="1") {
+          if (thissum==a) {
 
 
           ctx.beginPath();
@@ -314,7 +320,7 @@ function canvasAdder() {
       ctx.lineWidth = 4;
       ctx.stroke();
 
-         if (rigth=="1") {
+         if (thissum==a) {
 
       ctx.beginPath();
       ctx.arc(280,200,40,0, Math.PI,true);
@@ -354,7 +360,7 @@ function canvasAdder() {
       ctx.lineWidth = 4;
       ctx.stroke();
 
-              if (rigth==1) {
+              if (thissum==a) {
       ctx.beginPath();
       ctx.arc(290,200,50,0, Math.PI,true);
       ctx.lineWidth = 4;
@@ -393,7 +399,7 @@ function canvasAdder() {
       ctx.lineWidth = 4;
       ctx.stroke();
 
-        if (rigth=="1") {
+        if (thissum==a) {
       ctx.beginPath();
       ctx.arc(301,200,62,0, Math.PI,true);
       ctx.lineWidth = 4;
@@ -432,7 +438,7 @@ function canvasAdder() {
       ctx.lineWidth = 4;
       ctx.stroke();
 
-          if (rigth=="1") {
+          if (thissum==a) {
       ctx.beginPath();
       ctx.arc(311,200,72,0, Math.PI,true);
       ctx.lineWidth = 4;
@@ -474,7 +480,7 @@ function canvasAdder() {
     ctx.arc(175,200,82,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-         if (rigth==1) {
+         if (thissum==a) {
     ctx.beginPath();
     ctx.arc(290,200,31,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -511,7 +517,7 @@ function canvasAdder() {
     ctx.arc(175,200,82,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-        if (rigth==1) {
+        if (thissum==a) {
     ctx.beginPath();
     ctx.arc(300,200,41,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -549,7 +555,7 @@ function canvasAdder() {
     ctx.arc(175,200,82,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-           if (rigth=="1") {
+           if (thissum==a) {
     ctx.beginPath();
     ctx.arc(310,200,51,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -587,7 +593,7 @@ function canvasAdder() {
     ctx.arc(175,200,82,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-           if (rigth=="1") {
+           if (thissum==a) {
     ctx.beginPath();
     ctx.arc(322,200,62,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -628,7 +634,7 @@ function canvasAdder() {
     ctx.arc(186,200,93,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-          if (rigth==1) {
+          if (thissum==a) {
     ctx.beginPath();
     ctx.arc(300,200,21,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -666,7 +672,7 @@ function canvasAdder() {
     ctx.lineWidth = 4;
     ctx.stroke();
 
-    if (rigth=="1") {
+    if (thissum==a) {
 
     ctx.beginPath();
     ctx.arc(310,200,31,0, Math.PI,true);
@@ -704,7 +710,7 @@ function canvasAdder() {
     ctx.arc(186,200,93,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-        if (rigth=="1") {
+        if (thissum==a) {
     ctx.beginPath();
     ctx.arc(320,200,41,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -741,7 +747,7 @@ function canvasAdder() {
     ctx.arc(186,200,93,0, Math.PI,true);
     ctx.lineWidth = 4;
     ctx.stroke();
-  if (rigth=="1") {
+  if (thissum==a) {
     ctx.beginPath();
     ctx.arc(331,200,51,0, Math.PI,true);
     ctx.lineWidth = 4;
@@ -775,8 +781,8 @@ num.addEventListener('keyup',function () {
     num.style.display="none";
     imp.style.display="block";
     num1.style.background="none";
-    rigth=1;
-    canvasAdder();
+
+    canvasAdder(thissum);
     mo1.style.background="green";
 
 
@@ -840,5 +846,6 @@ result.addEventListener('keyup',function () {
 
     });
 
-canvasAdder();
+
+canvasAdder(120);
 };
