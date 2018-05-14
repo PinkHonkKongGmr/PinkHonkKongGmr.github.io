@@ -112,6 +112,9 @@ function canvasAdder(a) {
 
   if (randomnum1=="6") {
 
+    num.style.top="219px";
+    yeah.style.top="211px";
+
      if (thissum=="11") {
 
 
@@ -304,6 +307,12 @@ function canvasAdder(a) {
 
   else if (randomnum1=="7") {
 
+    num.style.left="363px";
+    num.style.top="205px";
+
+    yeah.style.left="363px";
+    yeah.style.top="203px";
+
     if (thissum=="11") {
       ctx.beginPath();
       ctx.moveTo(237,200);
@@ -464,6 +473,12 @@ function canvasAdder(a) {
 
   else if (randomnum1=="8") {
 
+    num.style.top="197px";
+    num.style.left="370px";
+
+    yeah.style.left="375px";
+    yeah.style.top="188px";
+
   if (thissum=="11") {
 
     ctx.beginPath();
@@ -617,7 +632,10 @@ function canvasAdder(a) {
 
   }
 
-  else if (randomnum1=="9") {
+  else if (randomnum1=="9")
+   {
+     num.style.left="385px";
+     yeah.style.left="385px";
   if (thissum=="11") {
 
     ctx.beginPath();
