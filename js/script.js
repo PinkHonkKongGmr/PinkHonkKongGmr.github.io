@@ -110,12 +110,12 @@ function canvasAdder(a) {
 
 
 
-  if (randomnum1=="6") {
+  if (randomnum1==6) {
 
     num.style.top="219px";
     yeah.style.top="211px";
 
-     if (thissum=="11") {
+     if (thissum==11) {
 
 
        ctx.beginPath();
@@ -164,7 +164,7 @@ function canvasAdder(a) {
 
      }
 
-  else if (thissum=="12")
+  else if (thissum==12)
         {
 
 
@@ -216,7 +216,7 @@ function canvasAdder(a) {
 
 
         }
-        else if (thissum=="13") {
+        else if (thissum==13) {
 
 
           ctx.beginPath();
@@ -258,7 +258,7 @@ function canvasAdder(a) {
 
         }
 
-        else if (thissum=="14") {
+        else if (thissum==14) {
 
 
           ctx.beginPath();
@@ -305,7 +305,7 @@ function canvasAdder(a) {
         }
       }
 
-  else if (randomnum1=="7") {
+  else if (randomnum1==7) {
 
     num.style.left="363px";
     num.style.top="205px";
@@ -313,7 +313,7 @@ function canvasAdder(a) {
     yeah.style.left="363px";
     yeah.style.top="203px";
 
-    if (thissum=="11") {
+    if (thissum==11) {
       ctx.beginPath();
       ctx.moveTo(237,200);
       ctx.lineTo(232,190);
@@ -353,7 +353,7 @@ function canvasAdder(a) {
 
     }
 
-    else if (thissum=="12") {
+    else if (thissum==12) {
       ctx.beginPath();
       ctx.moveTo(237,200);
       ctx.lineTo(232,190);
@@ -391,7 +391,7 @@ function canvasAdder(a) {
 
     }
 
-    else if (thissum=="13") {
+    else if (thissum==13) {
 
       ctx.beginPath();
       ctx.moveTo(237,200);
@@ -430,7 +430,7 @@ function canvasAdder(a) {
 
     }
 
-    else if (thissum=="14") {
+    else if (thissum==14) {
 
       ctx.beginPath();
       ctx.moveTo(237,200);
@@ -471,7 +471,7 @@ function canvasAdder(a) {
 
   }
 
-  else if (randomnum1=="8") {
+  else if (randomnum1==8) {
 
     num.style.top="197px";
     num.style.left="370px";
@@ -479,7 +479,7 @@ function canvasAdder(a) {
     yeah.style.left="375px";
     yeah.style.top="188px";
 
-  if (thissum=="11") {
+  if (thissum==11) {
 
     ctx.beginPath();
     ctx.moveTo(257,200);
@@ -516,7 +516,7 @@ function canvasAdder(a) {
     ctx.stroke();}
 
   }
-  else if (thissum=="12") {
+  else if (thissum==12) {
 
     ctx.beginPath();
     ctx.moveTo(257,200);
@@ -554,7 +554,7 @@ function canvasAdder(a) {
 
   }
 
-  else if (thissum=="13") {
+  else if (thissum==13) {
 
     ctx.beginPath();
     ctx.moveTo(257,200);
@@ -592,7 +592,7 @@ function canvasAdder(a) {
 
 
   }
-  else if (thissum=="14") {
+  else if (thissum==14) {
 
     ctx.beginPath();
     ctx.moveTo(257,200);
@@ -632,7 +632,7 @@ function canvasAdder(a) {
 
   }
 
-  else if (randomnum1=="9")
+  else if (randomnum1==9)
    {
      num.style.left="385px";
      yeah.style.left="385px";
@@ -673,7 +673,7 @@ function canvasAdder(a) {
     ctx.stroke();}
 
   }
-  else if (thissum=="12") {
+  else if (thissum==12) {
 
     ctx.beginPath();
     ctx.moveTo(279,200);
@@ -712,7 +712,7 @@ function canvasAdder(a) {
     ctx.stroke();}
 
   }
-  else if (thissum=="13") {
+  else if (thissum==13) {
 
     ctx.beginPath();
     ctx.moveTo(279,200);
@@ -750,7 +750,7 @@ function canvasAdder(a) {
 
   }
 
-  else if (thissum=="14") {
+  else if (thissum==14) {
     ctx.beginPath();
     ctx.moveTo(279,200);
     ctx.lineTo(274,190);
@@ -792,6 +792,8 @@ function canvasAdder(a) {
 
 
 };
+
+canvasAdder(120);
 
 num.addEventListener('keyup',function () {
   if (num.value.match(randomnum1)) {
@@ -867,5 +869,5 @@ result.addEventListener('keyup',function () {
     });
 
 
-canvasAdder(120);
+
 };
