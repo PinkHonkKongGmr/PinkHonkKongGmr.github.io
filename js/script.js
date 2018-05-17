@@ -180,8 +180,8 @@ function rightDecorate() {
   var y=30;
   var z=0;
 
-  var ileft=483;
-  var itop=221;
+  var ileft=475;
+  var itop=227;
   var y2left;
   var y2top;
 
@@ -228,8 +228,8 @@ function rightDecorate() {
                   x+=10;
                   y+=10;
                   z+=20;
-                  ileft+=2;
-                  itop-=2;
+                  ileft+=10;
+                  itop-=10;
                 }
          }
 
@@ -239,15 +239,35 @@ function rightDecorate() {
         x+=10;
         y-=10;
         ileft+=12;
-        itop+=2;
+        itop+=10;
       }
 
   }
 
+  calibration();
+
 };
 
 
+function calibration() {
+  if (randomnum1==8&&thissum==11)
+   {
+     imp.style.top ="244px";
+     yeah2.style.top="236px"
+   }
+  else if (randomnum1==9&&thissum==11)
+    {
+      imp.style.top ="254px";
+      yeah2.style.top="243px";
+    }
 
+  else if (randomnum1==9&&thissum==12)
+   {
+     imp.style.top ="244px";
+     yeah2.style.top="235px";
+   }
+
+ };
 
 
 
