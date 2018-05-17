@@ -30,6 +30,7 @@ var imp = document.getElementById("imp");
 var sumResult = document.getElementById('sumResult');
 var result = document.getElementById('result');
 var btn2=document.getElementById('btn2');
+var bt3=document.getElementById('btn3');
 var yes = document.getElementById("yes");
 var no = document.getElementById('no');
 var mo1= document.getElementById('mo1');
@@ -98,6 +99,7 @@ num.style.display="block";
 yeah.innerText="";
 yeah2.innerText="";
 btn2.style.display="none";
+btn3.style.display="none";
 num.value="";
 imp.value="";
 result.value="";
@@ -112,16 +114,20 @@ num1.innerText=randomnum1;
 num2.innerText=nm2valid;
 mo1.innerText=randomnum1;
 mo3.innerText=nm2valid;
-leftCanvasDraw();
+leftDecorate();
 };
 
 
 
 
-function leftCanvasDraw() {
+function leftDecorate() {
 
   var a=0;
   var b=0;
+  var nleft=350;
+  var ntop=220;
+  var yleft;
+  var ytop;
 
   for (var n = 6; n < 10; n++) {
 
@@ -146,22 +152,38 @@ function leftCanvasDraw() {
       ctx.lineWidth = 4;
 
       ctx.stroke();
+      num.style.left=nleft+"px";
+      num.style.top =ntop+"px";
+
+      yleft=nleft+3;
+      ytop=ntop-12;
+
+      yeah.style.left=yleft+"px";
+      yeah.style.top =ytop+"px";
     }
     else {
       a+=10;
       b+=20;
+
+      nleft+=11;
+      ntop-=10;
     }
   }
 };
 
-leftCanvasDraw();
+leftDecorate();
 
 
-function rightCanvasDraw() {
+function rightDecorate() {
 
   var x=0
   var y=30;
   var z=0;
+
+  var ileft=483;
+  var itop=221;
+  var y2left;
+  var y2top;
 
 
   for (var m = 6; m < 10; m++) {
@@ -191,12 +213,23 @@ function rightCanvasDraw() {
 
           ctx.stroke();
 
+          imp.style.left=ileft+"px";
+          imp.style.top =itop+"px";
+
+          y2left=ileft+3;
+          y2top=itop-10;
+
+          yeah2.style.left=y2left+"px";
+          yeah2.style.top =y2top+"px";
+
                  }
              else
                 {
                   x+=10;
                   y+=10;
                   z+=20;
+                  ileft+=2;
+                  itop-=2;
                 }
          }
 
@@ -205,6 +238,8 @@ function rightCanvasDraw() {
       else {
         x+=10;
         y-=10;
+        ileft+=12;
+        itop+=2;
       }
 
   }
@@ -226,7 +261,7 @@ num.addEventListener('keyup',function () {
     imp.style.display="block";
     num1.style.background="none";
 
-    rightCanvasDraw();
+    rightDecorate();
     mo1.style.background="green";
 
 
@@ -274,7 +309,7 @@ result.addEventListener('keyup',function () {
 
       sum.style.display="block";
       btn2.style.display="block";
-
+     btn3.style.display="block";
 
 
 
