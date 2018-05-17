@@ -113,12 +113,6 @@ num2.innerText=nm2valid;
 mo1.innerText=randomnum1;
 mo3.innerText=nm2valid;
 leftCanvasDraw();
-
-
-
-
-
-
 };
 
 
@@ -165,116 +159,59 @@ leftCanvasDraw();
 
 function rightCanvasDraw() {
 
-  if (randomnum1==6&&thissum==11) {
-    x=0
-    y=30;
-    z=0;
+  var x=0
+  var y=30;
+  var z=0;
+
+
+  for (var m = 6; m < 10; m++) {
+    if (randomnum1==m) {
+
+      for (var q = 11; q < 15; q++) {
+          if (thissum==q)
+                {
+
+          ctx.beginPath();
+          ctx.arc(269+x,200,21+y,0, Math.PI,true);
+          ctx.lineWidth = 4;
+
+          ctx.stroke();
+
+          ctx.beginPath();
+          ctx.moveTo(320+z,200);
+          ctx.lineTo(325+z,190);
+          ctx.lineWidth = 2;
+
+          ctx.stroke();
+
+          ctx.beginPath();
+          ctx.moveTo(320+z,200);
+          ctx.lineTo(315+z,190);
+          ctx.lineWidth = 2;
+
+          ctx.stroke();
+
+                 }
+             else
+                {
+                  x+=10;
+                  y+=10;
+                  z+=20;
+                }
+         }
+
+      }
+
+      else {
+        x+=10;
+        y-=10;
+      }
 
   }
-  else if (randomnum1==6&&thissum==12) {
-    x=10
-    y=40;
-    z=20;
-
-  }
-  else if(randomnum1==6&&thissum==13) {
-    x=20
-    y=50;
-    z=40;
-  }
-  else if(randomnum1==6&&thissum==14) {
-    x=30
-    y=60;
-    z=60;
-  }
-
-  else if (randomnum1==7&&thissum==11) {
-    x=10
-    y=20;
-    z=0;
-  }
-
-  else if (randomnum1==7&&thissum==12) {
-    x=20
-    y=30;
-    z=20;
-  }
-else if (randomnum1==7&&thissum==13) {
-  x=30
-  y=40;
-  z=40;
-}
-else if (randomnum1==7&&thissum==14) {
-  x=40
-  y=50;
-  z=60;
-}
-
-else if (randomnum1==8&&thissum==11) {
-  x=20
-  y=10;
-  z=0;
-}
-
-else if (randomnum1==8&&thissum==12) {
-  x=30
-  y=20;
-  z=20;
-}
-else if (randomnum1==8&&thissum==13) {
-  x=40
-  y=30;
-  z=40;
-}
-else if (randomnum1==8&&thissum==14) {
-  x=50
-  y=40;
-  z=60;
-}
-else if (randomnum1==9&&thissum==11) {
-  x=30
-  y=0;
-  z=0;
-}
-else if (randomnum1==9&&thissum==12) {
-  x=40
-  y=10;
-  z=20;
-}
-else if (randomnum1==9&&thissum==13) {
-  x=50
-  y=20;
-  z=40;
-}
-else if (randomnum1==9&&thissum==14) {
-  x=60
-  y=30;
-  z=60;
-}
-
-
-
-        ctx.beginPath();
-        ctx.arc(269+x,200,21+y,0, Math.PI,true);
-        ctx.lineWidth = 4;
-
-        ctx.stroke();
-
-        ctx.beginPath();
-        ctx.moveTo(320+z,200);
-        ctx.lineTo(325+z,190);
-        ctx.lineWidth = 2;
-
-        ctx.stroke();
-
-        ctx.beginPath();
-        ctx.moveTo(320+z,200);
-        ctx.lineTo(315+z,190);
-        ctx.lineWidth = 2;
-
-        ctx.stroke();
 
 };
+
+
 
 
 
