@@ -106,7 +106,12 @@ result.value="";
 sum.style.display="block";
 sum.innerText="?";
 
-randomnum1=getNumOne();
+var newNum1=_.reject(numarray1, function(n) { return n==randomnum1;});
+
+
+
+
+randomnum1=_.sample(newNum1);
 nm2valid = getNumTwo();
 thissum = randomnum1 + nm2valid;
 
