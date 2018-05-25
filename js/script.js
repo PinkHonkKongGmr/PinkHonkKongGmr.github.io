@@ -17,6 +17,7 @@ function BigMath() {
 
 var numarray1 =[];
 var numarray2=[];
+var thissum = 0;
 var num1=document.getElementById('num1');
 var num2=document.getElementById('num2');
 var num = document.getElementById('num');
@@ -67,7 +68,7 @@ var randomnum1 = getNumOne();
 function getNumTwo() {
   var rand2 = Math.floor(Math.random() * numarray2.length);
   var randomnum2 =numarray2[rand2];
-  if (randomnum1+randomnum2<15&&randomnum1+randomnum2>10) {
+  if (randomnum1+randomnum2<15&&randomnum1+randomnum2>10&&randomnum1+randomnum2!=thissum) {
     return randomnum2;
   }
   else {
@@ -85,7 +86,7 @@ var nm2valid = getNumTwo();
 
 
 // var randomnum2 =numarray2[rand2];
-var thissum = randomnum1 + nm2valid;
+thissum = randomnum1 + nm2valid;
 // var thissum = 14;
 num1.innerText=randomnum1;
 num2.innerText=nm2valid;
