@@ -1,0 +1,74 @@
+.household{
+        width:100px;
+        height: 100px;
+        position: absolute;  
+        & .btn{
+            opacity: 0;
+        }
+}
+
+.none{
+    display: none;
+}
+
+.ball{
+    opacity: 0;
+}
+
+.dragged{
+    position: static;
+    display: block;
+    & .btn{
+        position: absolute;
+        bottom: 95px;
+        opacity: 1;
+    }
+    & .feed{
+        left:12px;
+    }
+    & .harvest{
+        right:12px;      
+    }
+    & .food__indicator{
+        position: absolute;
+        width:12px;
+        height: 100%;
+        background: rgb(253, 71, 71);
+        left:0;
+        top:0;
+    }
+
+     & .generate__indicator{
+        position: absolute;
+        background: rgb(253, 71, 71);
+        width:12px;
+        height: 100%;
+        right:0;
+        top:0;
+        transform: rotate(180deg);
+        & .scale{
+            border-radius: 0 0 3px 3px;
+            background: yellow;
+            width:100%;
+            transition: all 0.025s;
+            transition: background-color 1.2s ease;
+        }
+     }
+
+     & .ball{
+     
+        background:white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        left: 3px;
+        width:30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+    }
+
+}
+
