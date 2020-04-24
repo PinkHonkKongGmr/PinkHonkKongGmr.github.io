@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17e472d5ff81cd106bb034311d212a12",
+    "revision": "70d3b1eaece7389fe776bb1bf09b2f50",
     "url": "./index.html"
   },
   {
-    "revision": "36adfc7b6f3571c9d9fd",
+    "revision": "c26226983ade128204c5",
     "url": "./static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "1ea6b469eb2906beb396",
+    "revision": "b616ea50f248b3d9f0e7",
     "url": "./static/css/main.3f56350b.chunk.css"
   },
   {
-    "revision": "36adfc7b6f3571c9d9fd",
-    "url": "./static/js/2.3aec1b6f.chunk.js"
+    "revision": "c26226983ade128204c5",
+    "url": "./static/js/2.1144a76a.chunk.js"
   },
   {
     "revision": "4fdb92f5a0a11be5d79ae606cb253c2b",
-    "url": "./static/js/2.3aec1b6f.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.1144a76a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ea6b469eb2906beb396",
-    "url": "./static/js/main.76857305.chunk.js"
+    "revision": "b616ea50f248b3d9f0e7",
+    "url": "./static/js/main.7d20d813.chunk.js"
   },
   {
     "revision": "ea81ec55000be0a7c817",
@@ -40,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/kiss.f93f1cb5.jpg"
   },
   {
+    "revision": "c664a8a4c98cc0ec5659f3825ed7e416",
+    "url": "./static/media/load.c664a8a4.png"
+  },
+  {
     "revision": "4fd3b34d4ac713db779bd1e5a7a6826a",
     "url": "./static/media/monad.4fd3b34d.png"
+  },
+  {
+    "revision": "ea96a8b70af67f1a8fff327da08cbad1",
+    "url": "./static/media/notworkingforof.ea96a8b7.png"
   },
   {
     "revision": "e306ed90a8c0294fc576653a5a107319",
@@ -50,5 +58,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "77676299420609ad8349b8d5c69b8bb8",
     "url": "./static/media/promiseall.77676299.png"
+  },
+  {
+    "revision": "18fa6fb9e41f421ef80d8fe9eeff1bd5",
+    "url": "./static/media/shopaxml.18fa6fb9.png"
+  },
+  {
+    "revision": "fc18833765ad470db7cfb95fb03a2854",
+    "url": "./static/media/symboliterator.fc188337.png"
   }
 ]);
