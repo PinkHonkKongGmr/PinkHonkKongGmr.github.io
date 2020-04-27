@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70d3b1eaece7389fe776bb1bf09b2f50",
+    "revision": "a2114f9c000b72d8f365bd86497ae91d",
     "url": "./index.html"
   },
   {
-    "revision": "c26226983ade128204c5",
+    "revision": "27c2fa3b90a4d246c49a",
     "url": "./static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "b616ea50f248b3d9f0e7",
+    "revision": "5c40bf5a1344feb197e1",
     "url": "./static/css/main.3f56350b.chunk.css"
   },
   {
-    "revision": "c26226983ade128204c5",
-    "url": "./static/js/2.1144a76a.chunk.js"
+    "revision": "27c2fa3b90a4d246c49a",
+    "url": "./static/js/2.3fde07cf.chunk.js"
   },
   {
-    "revision": "4fdb92f5a0a11be5d79ae606cb253c2b",
-    "url": "./static/js/2.1144a76a.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "./static/js/2.3fde07cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b616ea50f248b3d9f0e7",
-    "url": "./static/js/main.7d20d813.chunk.js"
+    "revision": "5c40bf5a1344feb197e1",
+    "url": "./static/js/main.0a435c37.chunk.js"
   },
   {
     "revision": "ea81ec55000be0a7c817",
@@ -32,8 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/descr.806070f7.png"
   },
   {
+    "revision": "b5e272bc7f27cddc787f232aa993a07e",
+    "url": "./static/media/fetch.b5e272bc.png"
+  },
+  {
     "revision": "66b080004f8e6579852d5bc94e6a5890",
     "url": "./static/media/functor.66b08000.png"
+  },
+  {
+    "revision": "340b143d258c92e9d0ad63e3866f525b",
+    "url": "./static/media/head.340b143d.png"
+  },
+  {
+    "revision": "96493e3308e03c3d62bd069e41341920",
+    "url": "./static/media/headers.96493e33.png"
   },
   {
     "revision": "f93f1cb5ab6ab7fdf0e58526fd73e54f",
@@ -54,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e306ed90a8c0294fc576653a5a107319",
     "url": "./static/media/obig.e306ed90.png"
+  },
+  {
+    "revision": "46a8b2af98f1c5e304e0999b59dd6f6b",
+    "url": "./static/media/petrushka.46a8b2af.png"
+  },
+  {
+    "revision": "19bccbfeb71e89353655231d57c41f0c",
+    "url": "./static/media/post.19bccbfe.png"
   },
   {
     "revision": "77676299420609ad8349b8d5c69b8bb8",
