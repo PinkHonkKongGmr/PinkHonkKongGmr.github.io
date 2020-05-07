@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body
+{font-family: 'Permanent Marker', cursive;}
+
+button
+{cursor: pointer;}
+
+#start, #btn2
+{font-family: 'Caveat', cursive;
+padding:20px;
+font-size: 1.5em;
+margin-left: 30%;}
+
+a
+{text-decoration: none;
+color:#9400d3;}
+
+#btn2
+{border: none;
+background: none;
+padding:0;
+margin-left:10%;
+}
+
+#yes
+{
+
+  font-size: 1.5em;
+  font-family: 'Caveat', cursive;
+  border: none;
+  background: none;
+  color:#9400d3;
+}
+#go
+{
+  padding:10px;
+background: #9400d3;
+border-radius: 15%;
+border:none;
+font-family: 'Pacifico', cursive;
+color:white;
+margin-left: 30%;}
+
+.modal
+{position: fixed;
+
+  top:10%;
+  left:10%;
+
+}
+
+/* .axis
+{
+width:800px;
+height:100px;
+} */
+
+img
+{width:500px;}
+
+
+
+
+.arc
+{
+top:120px;
+left:201px;
+position: absolute;
+
+}
+
+.axis
+{
+left:280px;
+top:283px;
+position: absolute;
+}
+
+#calculating
+{
+
+display: flex;
+padding-left:450px;
+font-size: 2em;
+
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
+}
+
+input[type="number"] {
+-moz-appearance: textfield;
+}
+
+#num, #imp, #result
+{width:30px;
+border-radius:10%;
+position:absolute;
+}
+
+#num, #imp
+{
+position:absolute;
+left:350px;
+top:220px;
+z-index: 3000;
+
+}
+
+#imp
+{left:500px;
+
+display:none; }
+
+#result
+{top:15px;
+}
+
+#yeah, #yeah2
+{position: absolute;
+  font-size: 2em;
+}
+
+#yeah
+{
+  left:356px;
+  top:211px;
+}
+
+#yeah2
+{left:496px;
+top: 184px;}
+
+#sumResult
+{display: none;}
+
+#btn2, #btn3
+{display:none;}
+
+.modal
+{display:none;}
+
+.mobs
+{margin-top:65px;
+font-size: 1.5em;}
+
+.mob
+{display: none;}
+
+.flexmob
+{display:flex; }
+
+@media screen and (max-width: 800px) {
+
+  .mob
+  {display: block;}
+
+  .arc
+  {
+  top:120px;
+  left:-80px;
+  position: absolute;
+
+  }
+
+  .axis
+  {
+  left:0px;
+  top:283px;
+  position: absolute;
+  }
+
+  #calculating
+  {
+
+  display: flex;
+  padding-left: 0;
+  font-size: 2em;
+  }
+
+  #num, #imp, #result
+  {width:50px;
+    height:60px;
+  border-radius:10%;
+  top:40px;
+  left:0px;
+  }
+
+  #yeah, #yeah2
+  {
+  display: none;
+  }
+
+
+
+
+}
