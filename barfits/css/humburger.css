@@ -1,0 +1,42 @@
+.humburger {
+  display: flex;
+  flex-direction: column;
+  width: 31px;
+  height: 31px;
+  position: relative;
+  z-index: 150;
+}
+
+.humburger {
+  padding-top: 10%;
+  display: none;
+}
+
+.lineB {
+  width: 100%;
+  border-top: 3px solid black;
+  margin-bottom: 25%;
+  background: #00aa52;
+}
+
+.cross {
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 10px;
+}
+
+.cross2 {
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .humburger {
+    display: block;
+  }
+
+  .displayResolutionHide {
+    display: none;
+  }
+}
