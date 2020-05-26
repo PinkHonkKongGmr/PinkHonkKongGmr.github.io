@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "./static/css/main.4ae39ba2.chunk.css",
-    "main.js": "./static/js/main.09337062.chunk.js",
-    "main.js.map": "./static/js/main.09337062.chunk.js.map",
+    "main.js": "./static/js/main.d7f42637.chunk.js",
+    "main.js.map": "./static/js/main.d7f42637.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0eced6d1.js",
     "runtime-main.js.map": "./static/js/runtime-main.0eced6d1.js.map",
     "static/css/2.de424728.chunk.css": "./static/css/2.de424728.chunk.css",
-    "static/js/2.65278d89.chunk.js": "./static/js/2.65278d89.chunk.js",
-    "static/js/2.65278d89.chunk.js.map": "./static/js/2.65278d89.chunk.js.map",
+    "static/js/2.607490ba.chunk.js": "./static/js/2.607490ba.chunk.js",
+    "static/js/2.607490ba.chunk.js.map": "./static/js/2.607490ba.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.dfe4c38724efdd72321c7cfff5e3112c.js": "./precache-manifest.dfe4c38724efdd72321c7cfff5e3112c.js",
+    "precache-manifest.fe93dfec363b4e52b09dc6923a484610.js": "./precache-manifest.fe93dfec363b4e52b09dc6923a484610.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.de424728.chunk.css.map": "./static/css/2.de424728.chunk.css.map",
     "static/css/main.4ae39ba2.chunk.css.map": "./static/css/main.4ae39ba2.chunk.css.map",
-    "static/js/2.65278d89.chunk.js.LICENSE.txt": "./static/js/2.65278d89.chunk.js.LICENSE.txt",
+    "static/js/2.607490ba.chunk.js.LICENSE.txt": "./static/js/2.607490ba.chunk.js.LICENSE.txt",
     "static/media/aboutcontext.mp4": "./static/media/aboutcontext.0415ceb1.mp4",
     "static/media/descr.png": "./static/media/descr.806070f7.png",
     "static/media/fetch.png": "./static/media/fetch.b5e272bc.png",
     "static/media/functor.png": "./static/media/functor.66b08000.png",
     "static/media/head.png": "./static/media/head.340b143d.png",
     "static/media/headers.png": "./static/media/headers.96493e33.png",
+    "static/media/intcoms.png": "./static/media/intcoms.05ee4115.png",
     "static/media/kiss.jpg": "./static/media/kiss.f93f1cb5.jpg",
     "static/media/load.png": "./static/media/load.c664a8a4.png",
     "static/media/lsmetods.png": "./static/media/lsmetods.e6e463f4.png",
@@ -40,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.0eced6d1.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.65278d89.chunk.js",
+    "static/js/2.607490ba.chunk.js",
     "static/css/main.4ae39ba2.chunk.css",
-    "static/js/main.09337062.chunk.js"
+    "static/js/main.d7f42637.chunk.js"
   ]
 }
