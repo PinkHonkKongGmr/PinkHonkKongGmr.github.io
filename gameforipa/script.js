@@ -3,7 +3,7 @@ const root = document.querySelector(".root");
 const fly = document.createElement("div");
 const point = document.createElement("div");
 
-fly.setAttribute("class", "redPoint");
+fly.setAttribute("class", "fly");
 point.setAttribute("class", "invisiblePoint");
 
 root.append(fly);

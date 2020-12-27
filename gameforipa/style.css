@@ -1,10 +1,14 @@
-.redPoint {
+.fly {
   width: 70px;
   height: 70px;
-  background: rgb(194, 34, 34);
+  background-image: url("./fly.jpg");
+  background-size: cover;
   border-radius: 50%;
-  box-shadow: 0px 0px 21px red;
   position: absolute;
+}
+
+.fly:hover {
+  box-shadow: 0px 0px 21px red;
 }
 
 .invisiblePoint {
