@@ -75,7 +75,9 @@ setInterval(() => {
 
 fly.onclick = (el) => {
   el.target.style.left =
-    parseInt(window.getComputedStyle(fly).left.replace(/\D+/g, "")) - 7 + "px";
+    parseInt(window.getComputedStyle(fly).left.replace(/\D+/g, "")) -
+    200 +
+    "px";
   el.target.style.top =
-    parseInt(window.getComputedStyle(fly).top.replace(/\D+/g, "")) - 100 + "px";
+    parseInt(window.getComputedStyle(fly).top.replace(/\D+/g, "")) - 250 + "px";
 };
