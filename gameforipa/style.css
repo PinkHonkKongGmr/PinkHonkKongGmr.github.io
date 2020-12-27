@@ -1,0 +1,14 @@
+.redPoint {
+  width: 70px;
+  height: 70px;
+  background: rgb(194, 34, 34);
+  border-radius: 50%;
+  box-shadow: 0px 0px 21px red;
+  position: absolute;
+}
+
+.invisiblePoint {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
