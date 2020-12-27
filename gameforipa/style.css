@@ -7,10 +7,6 @@
   position: absolute;
 }
 
-.fly:hover {
-  box-shadow: 0px 0px 21px red;
-}
-
 .invisiblePoint {
   position: absolute;
   top: 400px;
